@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>exercice1</OriginalElement>
+  <nodes>
+    <node x="375.0" y="352.0">exercice1.Diviser</node>
+    <node x="-284.0" y="352.0">exercice1.Multiplication</node>
+    <node x="536.5" y="-228.0">exercice1.Expression</node>
+    <node x="68.0" y="352.0">exercice1.Moins</node>
+    <node x="686.0" y="352.0">exercice1.Plus</node>
+    <node x="254.0" y="-22.0">exercice1.OpBinaire</node>
+    <node x="558.0" y="-29.5">exercice1.Constante</node>
+    <node x="756.0" y="-47.0">exercice1.Variable</node>
+    <node x="65.0" y="493.0">exercice1.Main</node>
+    <node x="-284.0" y="493.0">exercice1.Contexte</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="exercice1.Diviser" target="exercice1.OpBinaire">
+      <point x="0.0" y="-48.0" />
+      <point x="589.5" y="375.0" />
+      <point x="469.0" y="375.0" />
+      <point x="34.0" y="92.5" />
+    </edge>
+    <edge source="exercice1.Moins" target="exercice1.OpBinaire">
+      <point x="0.0" y="-48.0" />
+      <point x="142.5" y="375.0" />
+      <point x="215.0" y="301.0" />
+      <point x="-34.0" y="92.5" />
+    </edge>
+    <edge source="exercice1.OpBinaire" target="exercice1.Expression">
+      <point x="0.0" y="-92.5" />
+      <point x="343.0" y="59.0" />
+      <point x="373.33333333333337" y="-4.0" />
+      <point x="-57.66666666666663" y="36.5" />
+    </edge>
+    <edge source="exercice1.Variable" target="exercice1.Expression">
+      <point x="0.0" y="-70.5" />
+      <point x="846.5" y="-45.0" />
+      <point x="800.6666666666666" y="-73.0" />
+      <point x="57.66666666666663" y="36.5" />
+    </edge>
+    <edge source="exercice1.Plus" target="exercice1.OpBinaire">
+      <point x="0.0" y="-48.0" />
+      <point x="807.0" y="422.0" />
+      <point x="733.0" y="332.0" />
+      <point x="102.0" y="92.5" />
+    </edge>
+    <edge source="exercice1.Constante" target="exercice1.Expression">
+      <point x="0.0" y="-48.0" />
+      <point x="0.0" y="36.5" />
+    </edge>
+    <edge source="exercice1.Multiplication" target="exercice1.OpBinaire">
+      <point x="0.0" y="-48.0" />
+      <point x="-120.0" y="357.0" />
+      <point x="81.0" y="266.0" />
+      <point x="-102.0" y="92.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="547.0" y="151.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

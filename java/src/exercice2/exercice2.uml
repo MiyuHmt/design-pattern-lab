@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>exercice2</OriginalElement>
+  <nodes>
+    <node x="659.0" y="381.0">exercice2.Diviser</node>
+    <node x="990.0" y="168.0">exercice2.Variable</node>
+    <node x="970.0" y="381.0">exercice2.Plus</node>
+    <node x="349.0" y="810.0">exercice2.Main</node>
+    <node x="513.0" y="691.0">exercice2.PostfixeIterator</node>
+    <node x="352.0" y="381.0">exercice2.Moins</node>
+    <node x="238.0" y="522.0">exercice2.ExpressionIterator</node>
+    <node x="0.0" y="810.0">exercice2.Contexte</node>
+    <node x="261.0" y="691.0">exercice2.InfixeIterator</node>
+    <node x="806.0" y="179.0">exercice2.Constante</node>
+    <node x="514.0" y="146.0">exercice2.OpBinaire</node>
+    <node x="0.0" y="381.0">exercice2.Multiplication</node>
+    <node x="0.0" y="691.0">exercice2.PrefixeIterator</node>
+    <node x="791.5" y="0.0">exercice2.Expression</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="exercice2.Variable" target="exercice2.Expression">
+      <point x="0.0" y="-70.5" />
+      <point x="1103.5" y="121.0" />
+      <point x="952.3333333333333" y="121.0" />
+      <point x="64.33333333333326" y="48.0" />
+    </edge>
+    <edge source="exercice2.InfixeIterator" target="exercice2.ExpressionIterator">
+      <point x="0.0" y="-37.0" />
+      <point x="0.0" y="59.5" />
+    </edge>
+    <edge source="exercice2.Plus" target="exercice2.OpBinaire">
+      <point x="0.0" y="-48.0" />
+      <point x="1108.0" y="351.0" />
+      <point x="752.0" y="351.0" />
+      <point x="102.0" y="92.5" />
+    </edge>
+    <edge source="exercice2.Moins" target="exercice2.OpBinaire">
+      <point x="0.0" y="-48.0" />
+      <point x="495.5" y="361.0" />
+      <point x="616.0" y="361.0" />
+      <point x="-34.0" y="92.5" />
+    </edge>
+    <edge source="exercice2.OpBinaire" target="exercice2.Expression">
+      <point x="0.0" y="-92.5" />
+      <point x="650.0" y="121.0" />
+      <point x="823.6666666666666" y="121.0" />
+      <point x="-64.33333333333337" y="48.0" />
+    </edge>
+    <edge source="exercice2.PrefixeIterator" target="exercice2.ExpressionIterator">
+      <point x="0.0" y="-37.0" />
+      <point x="120.5" y="666.0" />
+      <point x="284.3333333333333" y="666.0" />
+      <point x="-92.66666666666669" y="59.5" />
+    </edge>
+    <edge source="exercice2.PostfixeIterator" target="exercice2.ExpressionIterator">
+      <point x="0.0" y="-37.0" />
+      <point x="637.5" y="666.0" />
+      <point x="469.6666666666667" y="666.0" />
+      <point x="92.66666666666669" y="59.5" />
+    </edge>
+    <edge source="exercice2.Constante" target="exercice2.Expression">
+      <point x="0.0" y="-59.5" />
+      <point x="0.0" y="48.0" />
+    </edge>
+    <edge source="exercice2.Multiplication" target="exercice2.OpBinaire">
+      <point x="0.0" y="-48.0" />
+      <point x="166.0" y="351.0" />
+      <point x="548.0" y="351.0" />
+      <point x="-102.0" y="92.5" />
+    </edge>
+    <edge source="exercice2.Diviser" target="exercice2.OpBinaire">
+      <point x="0.0" y="-48.0" />
+      <point x="804.5" y="361.0" />
+      <point x="684.0" y="361.0" />
+      <point x="34.0" y="92.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6196943972835314" x="649.7397260273973" y="539.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
